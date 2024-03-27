@@ -69,7 +69,7 @@ export default function CategoryPage({ params: { categoryName } }) {
           {categoryProducts.length < 1 && (
             <div className="w-full lg:w-10/12 my-4 lg:my-10 flex justify-center">
               <p className="text-center text-lg my-4">
-                No products found in the category "{categoryName}"
+                No products found in the category &quot;{categoryName}&quot;
               </p>
             </div>
           )}

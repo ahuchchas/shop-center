@@ -15,7 +15,7 @@ export default function ProductImageGroup({ images }) {
         height={600}
       />
 
-      <div className="flex gap-4 mt-4">
+      <div className="flex gap-4 mt-4 overflow-x-scroll">
         {images.map((img, index) => (
           <Image
             key={index}
